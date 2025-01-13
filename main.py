@@ -166,7 +166,7 @@ def extract_video_id(url):
         st.error(f"Error extracting video ID: {str(e)}")
 def show():
     st.title("📊 Scraping Komentar")
-    st.markdown("Selamat datang di aplikasi scraping data! Pilih platform yang ingin Anda scraping, Semangat NLP😂 .!!!")
+    st.markdown("Semangat NLP😂 .!!!")
 
     platform = st.selectbox("Pilih platform:", ["Google Play Store", "Twitter", "YouTube", "TikTok"])
 
